@@ -6,13 +6,14 @@ PCL2 官方版因「遵守相关法律法规」关闭了原版 Minecraft 下载�
 
 ## 下载
 
-从右侧 **Releases** 下载最新版的补丁文件（`Plain Craft Launcher 2.exe`）。
+从右侧 **Releases** 下载最新版的补丁文件（`PlainCraftLauncher2-DownloadFix.exe`）。
 
 ## 使用方法（约 1 分钟）
 
 1. 完全关闭 PCL2（启动器不要运行）。
 2. 【建议】备份：把你原来的 `Plain Craft Launcher 2.exe` 复制一份到别处。
-3. 把补丁的 `Plain Craft Launcher 2.exe` 复制到你的 PCL2 所在文件夹，**覆盖**原来的。
+3. 把下载的 `PlainCraftLauncher2-DownloadFix.exe` **改名为 `Plain Craft Launcher 2.exe`**，
+   复制到你的 PCL2 所在文件夹，**覆盖**原来的。
 4. 重新启动 PCL2。
 5. 进「设置 → 下载」，把下载源改成「**官方源优先**」或「仅使用官方源」
    （BMCLAPI 镜像已停止提供原版文件，必须用官方源才能下载）。
