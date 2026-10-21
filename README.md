@@ -36,7 +36,7 @@ PCL 源码 `Modules/ModSecret.vb` 中存在编译时常量 `RestrictMcDownload =
 - **原版下载**：下载页入口 `PageDownloadInstall.LoaderInit` 的正常分支（`DlClientListLoader`）仍在程序集中，只是被判断切走——补丁用 [dnlib](https://github.com/0xd4d/dnlib) 修改 IL，把「关闭下载 + 抛法律异常」的路径改回正常加载版本列表，即可恢复。
 - **整合包安装**：正常逻辑在编译时已被删除，不存在于程序集中，无法通过 IL 补丁恢复。
 
-补丁脚本见 `patch-download-fix.ps1`（透明化，可自行审查）。
+补丁脚本见 `patch-download-fix源码.ps1`（透明化，可自行审查）。
 
 ## 回滚
 
